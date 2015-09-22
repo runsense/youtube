@@ -24,7 +24,7 @@ $(FuncInit.idtree).animate({'width':(FuncInit.w*0.3)});
 FuncInit.init();
 FuncInit.h=$(window).height();
 FuncInit.w=$(window).width();
-FuncInit.tl=$(window).width()*61/100;if(!bm){$(window).resize(function(){$(FuncInit.idtree).animate({'height':(FuncInit.h)});
+FuncInit.tl=$(window).width()*81/100;if(!bm){$(window).resize(function(){$(FuncInit.idtree).animate({'height':(FuncInit.h)});
 $(FuncInit.idtree).animate({'width':(FuncInit.w*0.3)});
 if(FuncInit.plys!=null){FuncInit.plys.setSize(FuncInit.w*67/100,FuncInit.h);
 }}).resize();
@@ -79,6 +79,7 @@ $('#jqxTree').bind('expand',function(event){var args=event.args;var elmt=args.el
 var val=i.value;
 FuncTree.curi(val);
 var spl=i.label.split(' ');
+
 if(spl[0]==='play'){$(FuncInit.idtree).jqxTree('addTo',{html:FuncInit.uri},elmt);
 }$(FuncInit.idtree).mouseenter();
 });
@@ -87,13 +88,13 @@ $('#mix_p').on('change',function(event){FuncInit.player.setPlaybackRate(event.ar
 $('#mix_s').on('change',function(event){FuncInit.player.setVolume(event.args.value);
 });
 $('#sw').on('checked',function (event){$('#mix').animate({'left':'1px'});
-FuncInit.mix.setSize(FuncInit.w*0.81,FuncInit.h);
-var tl=FuncInit.tl+'px';$('#player').animate({'left':tl});
+FuncInit.mix.setSize(FuncInit.w*0.67,FuncInit.h);
+$('#player').animate({'left':FuncInit.tl});
 FuncInit.plys.setSize(200,50);$("#asyn").jqxCheckBox('val',true);
 });
-$('#sw').on('unchecked',function (event){$('#player').animate({'left':'1px'},{'zIndex':'1'});
-FuncInit.plys.setSize(FuncInit.w*0.81,FuncInit.h);
-$('#mix').animate({'left':FuncInit.tl},{'zIndex':'-1'});
+$('#sw').on('unchecked',function (event){$('#player').animate({'left':'1px'});
+FuncInit.plys.setSize(FuncInit.w*0.67,FuncInit.h);
+$('#mix').animate({'left':FuncInit.tl});
 FuncInit.mix.setSize(200,50);$("#asyn").jqxCheckBox('val',false);
 });
  $('#mix_pl').change(function(){var v=this.value;if(FuncInit.basyn){FuncInit.bmix=true;FuncInit.mix.playVideoAt(v);
