@@ -25,5 +25,5 @@ input{background:rgba(63,180,18,0.4);width:2em;}
     transform: scale(.3, .3, .3);
   }
 }
-#jqxTree div{animation: bounceOut 2s ease-in-out 3s;}
+#jqxTree div{animation: bounceOut 2s ease-in-out 3s;}#lkyt img{animation: bounceOut 2s ease-in-out 3s 3;}
 .bounce{animation: bounceOut 2s ease-in-out 3s;}
