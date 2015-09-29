@@ -13,3 +13,4 @@ body {display: block;font-size:180%!important;height:1024px!important;}
 #sw{position:static;float:left!important;}
 #mix{position:static;float:left!important;}
 #mix_p {position:static;float:left!important;}
+#add{position:static;color:green;width:100px;%}
