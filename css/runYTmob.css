@@ -1,16 +1,1 @@
-body {display: block;font-size:180%!important;height:1024px!important;}
-#jqxTree{position:static;width:300px;top:1px!important;float:right!important;}
-#player{position:static;float:left;} #mix{position:static;}
-#lk{position:static;float:right!important;}
-#lkyt{position:static;float:left!important;}
-#mix_j {width:5%;position:static;float:left!important;}
-#mix_s{position:static;float:left!important;}
-#sgq{position:static;float:left!important;}
-#asyn{position:absolute;float:left!important;}
-#mute{position:absolute;left:50px!important;}
-#sync{position:static;float:right!important;}
-#dec{width:3%;position:static;float:right!important;}
-#sw{position:static;float:left!important;}
-#mix{position:static;float:left!important;}
-#mix_p {position:static;float:left!important;}
-#add{position:static;color:green;width:100px;%}
+body {display: block;font-size:180%!important;height:1024px!important;}#jqxTree{position:static;width:300px;top:1px!important;float:right!important;}#player{position:static;float:left;}#mix{position:static;}#lk{position:static;float:right!important;}#lkyt{position:static;float:left!important;}#mix_j {width:5%;position:static;float:left!important;}#mix_s{position:static;float:left!important;}#sgq{position:static;float:left!important;}#asyn{position:absolute;float:left!important;}#mute{position:absolute;left:50px!important;}#sync{position:static;float:right!important;}#dec{width:3%;position:static;float:right!important;}#sw{position:static;float:left!important;}#mix{position:static;float:left!important;}#mix_p {position:static;float:left!important;}#add{position:static;color:green;width:100px;%}
