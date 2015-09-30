@@ -5,15 +5,17 @@ html,body {height:100%!important;margin:0px!important;padding:0px!important;back
 #add{position:absolute;z-index:4!important;width:10%;top:50px;left:90%;background:rgba(9,9,252,0.4);}
 input{background:rgba(63,180,18,0.4);width:100%;z-index:1!important;}
 .ytp-title-text{display:none;}
-.jqx-switchbutton {background:rgba(255,255,255,0.4);}
 .jqx-slider-tickscontainer{background:rgba(180,18,63,0.4);}
-.jqx-widget-content {background:rgba(255,250,18,0.4)!important;}
+.jqx-widget-content {color:white;border-color:rgba(255,250,18,0.7)!important;background:rgba(192,192,192,0.1)!important;}
 .jqx-fill-state-hover {font-size:180%!important;} #sgq  .jqx-fill-state-hover {font-size:120%!important;color:green;background:rgba(180,18,9,0.7);}
-.jqx-tree,.jqx-tree-item,.pagination,#iti,#btn,#clear {border-top-left-radius:2em!important;border-bottom-right-radius:1em!important;}
+.jqx-tree,.jqx-tree-item,.pagination {border-top-left-radius:2em!important;border-bottom-right-radius:1em!important; animation: textanm 1s ease-in-out 3s infinite;}
 @keyframes tourne{20%{transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);}50%,55% {transform: rotateX(360deg) rotateY(-180deg) rotateZ(360deg);}to {transform: rotateX(-360deg) rotateY(180deg) rotateZ(-360deg);}}@keyframes couleur{20%{background-color: rgba(18,180,63,0.5);}50%,55% {opacity: 0.4;background-color:  rgba(252,252,9,0.8);}to {background-color: rgba(180,18,63,0.4);}}
 @keyframes bougeC{20%{background-color: rgba(18,180,63,0.5);transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);}50%,55% {opacity: 0.4;background-color:  rgba(252,252,9,0.8);transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);}to {background-color: rgba(180,18,63,0.4);transform: rotateX(60deg) rotateY(60deg) rotateZ(60deg);}}@keyframes bouge{20%{background-color: rgba(0,0,0,1);transform: scale(.9, .9, .9);}50%,55% {background-color: rgba(0,0,0,1);opacity: 1;transform: scale(1.1, 0, 1.1);}to {background-color: rgba(0,0,0,1);opacity: 0;transform: scale(.3, .3, .3);}}
 #jqxTree div{animation: bouge 1s ease-in-out 3s 2;} #lk img{animation: bouge 3s linear 2s infinite;}#lkyt img{animation: bouge 2s ease-in-out 3s infinite;}
  .jqx-slider-track {animation: couleur 9s ease-in-out infinite} .jqx-slider{animation: tourne 3s ease-in-out 2s 2;} .jqx-slider-tick{animation: tourne 2s linear 4s infinite;} .jqx-slider-slider{animation: bougeC 3s ease-in-out 1s infinite;}
  #mix_p .jqx-slider-tickscontainer{animation: tourne 3s ease-in 2s 3;} #mix_s .jqx-slider-tickscontainer{animation: tourne 3s ease-in 2s 1;}
  #mix_pl{animation: bouge 1s ease-in-out 3s 3;}#sTa{animation: bouge 1s ease-in-out 2s 2;} #sTo{animation: bouge 1s ease-in-out 1s 1;}
+ 
+  @keyframes textanm{9%{text-shadow: 2px 0 0 #CC0000;} 18%,54% {text-shadow: 4px 2px 0 #9999D6;}to{text-shadow: 2px 7px 4px #004200;}}
+ 
  
