@@ -9,9 +9,10 @@ input{background:rgba(63,180,18,0.4);width:100%;z-index:1!important;} select#add
 .jqx-fill-state-hover {font-size:180%!important;} #sgq  .jqx-fill-state-hover {font-size:120%!important;color:green;background:rgba(180,18,9,0.7);}
 .jqx-tree,.jqx-tree-item,.pagination {border-top-left-radius:2em!important;border-bottom-right-radius:1em!important;animation: textanm 4s ease-in-out 1s infinite;}
 #jqxTree div{animation: bouge 1s ease-in-out 3s 2;animation: boxanm 4s ease-in-out 1s infinite;} .jqx-slider-track {animation: couleur 9s ease-in-out infinite} .jqx-slider{animation: tourne 3s ease-in-out 2s 2;} .jqx-slider-tick{animation: tourne 2s linear 4s infinite;} .jqx-slider-slider{animation: bougeC 3s ease-in-out 1s infinite;}
- #mix_p .jqx-slider-tickscontainer{animation: explodOr 3s ease-in 2s infinite;} #mix_s .jqx-slider-tickscontainer{animation: explodOr 2s ease-out 3s infinite;}
- #mix_pl{animation: bouge 1s ease-in-out 3s 3;} #sTa{animation: bouge 1s ease-in-out 2s 2;} #sTo{animation: bouge 1s ease-in-out 1s 1;}
+ .anm_p .jqx-slider-tickscontainer{animation: explodOr 3s ease-in 2s 4;} .anm_s .jqx-slider-tickscontainer{animation: explodOr 2s ease-out 3s 3;}
+ #mix_j{animation: bouge 1s ease-in-out 3s 3;}
  #player{animation: boxanm 1s ease-in-out 3s infinite;} #mix{animation: boxRvanm 1s ease-in-out 3s infinite;}
  #add{position:absolute;color:black;z-index:4!important;width:100px;top:1px;right:100px;background:rgba(9,9,252,0.4); animation: boxanm 3s ease-out 2s infinite;}
  #addi{position:absolute;color:white;z-index:4!important;width:100px;right:100px;top:25px;background:rgba(9,252,9,0.2); animation: smokOr 5s ease-in-out 16s infinite;}
- #lk img{animation: bouge 3s linear 2s infinite;}#lkyt img{animation: smoksCOr 2s linear 8s infinite;}
+ #lk img{animation: smoksCOr 306s ease-in-out 2s infinite;}#lkyt img{animation: smoksCOr 2s linear 8s infinite;}
+ 
