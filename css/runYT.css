@@ -31,4 +31,4 @@ select#add option{-webkit-animation: boxanm 4s ease-in-out 1s infinite; -moz-ani
  #lkyt img{-webkit-animation: smoksCOr 3s linear 3s infinite;-moz-animation: smoksCOr 3s linear 3s infinite; -o-animation: smoksCOr 3s linear 3s infinite;animation: smoksCOr 3s linear 3s infinite;}
  #mute div{-webkit-animation: smokarly 1s ease-in-out 3s infinite; -moz-animation: smokRvarly 1s ease-in-out 3s infinite; -o-animation: smokRvarly 1s ease-in-out 3s infinite; animation: smokarly 1s ease-in-out 3s infinite;}
  #asyn div{-webkit-animation: smokRvarly 1s ease-in-out 3s infinite; -moz-animation: smokarly 1s ease-in-out 3s infinite; -o-animation: smokarly 1s ease-in-out 3s infinite; animation: smokRvarly 1s ease-in-out 3s infinite;}
-#bas {transform: translate(0,121%);width:100%;height:60%;border-color:rgba(250,250,252,1); animation: insideSmoker 10s ease-in-out 1s infinite;} 
+#bas {z-index:-1;transform: translate(0,121%);width:100%;height:60%;border-color:rgba(250,250,252,1); animation: insideSmoker 10s ease-in-out 1s infinite;} 
