@@ -1,0 +1,6 @@
+@keyframes choice{10%{opacity:0.3;}20% {opacity:1;}80% {opacity:1;}to {opacity:0;}}
+
+#choix{position:relative;left:15%;}
+.anm {display: block;}
+.anom {display: none;}
+.liens {color:#ffffff;text-height: 2em;}
