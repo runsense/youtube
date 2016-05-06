@@ -1,6 +1,11 @@
 @keyframes choice{10%{opacity:0.3;}20% {opacity:1;}80% {opacity:1;}to {opacity:0;}}
-
+@keyframes menu{0% {display: none;opacity: 0;}1% {display: block;opacity: 0;}100% {display: block;opacity: 1;}}
+@keyframes mOff{0% {display: block;opacity: 1;}50% {display: block;opacity: 0.5;}  90% {display: none;opacity: 0.1;} 100% {display: none;opacity: 0;}}
 #choix{position:relative;left:15%;}
-.anm {display: block;}
-.anom {display: none;}
+.anm {display: block;animation: menu 1.5s ease-out;}
+.anom {display: none;animation: mOff 1.5s ease-out;}
 .liens {color:#ffffff;text-height: 2em;}
+.jqx-listbox {background: none;color:goldenrod;} 
+.jqx-fill-state-hover{color:black;}
+.jqx-scrollbar .jqx-scrollbar-state-normal {background: #a40200;}
+.jqx-scrollbar-button-state-normal{background:green;}
