@@ -18,12 +18,13 @@
     <script type="text/javascript" src="jqwidgets/jqxlistbox.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxdragdrop.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxinput.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxcombobox.js"></script>
     <script type="text/javascript" src="return.js"></script>
    
 </head>
 <body style="background: #000000;">
     <div style="position:absolute;" >
-        <input type="text" id="input" onclick="this.value=''"/>
+        <input type="text" id="tabsrch" onclick="this.value=''"/>
         <div id="entrer"></div>
     </div>
       
@@ -35,8 +36,11 @@
           </div>
           <div style="position:relative;" id="yT"></div>
       </div>
+      <div style="position:absolute;right:10px;z-index:-1;" >
+          <div id="genre"></div>
+      <div  oncontextmenu="javascript:rClick();return false;"  id="lrtrn"></div> 
       
-      <div  oncontextmenu="javascript:rClick();return false;" style="position:absolute;right:10px;z-index:-1;" id="lrtrn"></div>  
+      </div>
       
 </body>
 </html>
