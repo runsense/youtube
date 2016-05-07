@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/return.css" type="text/css" />
     <link rel="stylesheet" media="all and (orientation:portrait)" href="css/jqx.mobile.css" />
     <link rel="stylesheet" media="all and (orientation:landscape)" href="css/jqx.mobile.css" />
+    <link rel="stylesheet" media="all and (max-width: 768px)" href="./css/mob.css" />
+ <link rel="stylesheet" media="all and (max-width: 1024px)" href="./css/tablet.css" />
+ <link rel="stylesheet" media="all and (max-width: 1200px)" href="./css/largeSize.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
@@ -23,7 +26,7 @@
    
 </head>
 <body style="background: #000000;">
-    <div style="position:absolute;" >
+    <div id="pl" style="position:absolute;" >
         <input type="text" id="tabsrch" onclick="this.value=''"/>
         <div id="entrer"></div>
     </div>
@@ -39,7 +42,13 @@
       <div style="position:absolute;right:10px;z-index:-1;" >
           <div id="genre"></div>
       <div  oncontextmenu="javascript:rClick();return false;"  id="lrtrn"></div> 
-      
+      <div id="don"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="UWCS9FNNMLYLW">
+        <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+        <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+        </form>
+      </div>
       </div>
       
 </body>
