@@ -4,6 +4,7 @@
     <title id='Description'>Tab Music play</title>
     <link rel="stylesheet" href="css/jqx.base.css" type="text/css" />
     <link rel="stylesheet" href="css/return.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" media="all and (orientation:portrait)" href="css/jqx.mobile.css" />
     <link rel="stylesheet" media="all and (orientation:landscape)" href="css/jqx.mobile.css" />
     <link rel="stylesheet" media="all and (max-width: 768px)" href="./css/mob.css" />
@@ -27,7 +28,7 @@
 </head>
 <body style="background: #000000;">
     <div id="pl">
-        <span><input type="text" id="tabsrch" onclick="this.value=''"/><em id="btt">Srch</em></span>
+        <span><input type="text" id="tabsrch" onclick="this.value=''"/><em id="src">Srch</em></span>
         <div id="entrer"></div>
     </div>      
       <div id="dtc">
@@ -36,9 +37,8 @@
                 <a class="navbar-brand" href="http://youtube.runsense.re">MixYoutube</a>
               </div>
           </div>
-          <div style="position:relative;" id="yT"></div>
       </div>
-      <div style="position:absolute;right:10px;z-index:-1;" >
+      <div style="position:absolute;right:10px;" >
           <div><div id="lock"></div><div id="genre"></div></div>
       <div  oncontextmenu="javascript:rClick();return false;"  id="lrtrn"></div> 
       <div id="don"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
