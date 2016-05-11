@@ -1,8 +1,9 @@
 @keyframes choice{10%{opacity:0.3;}20% {opacity:1;}80% {opacity:1;}to {opacity:0;}}
 @keyframes menu{0% {display: none;opacity: 0;}1% {display: block;opacity: 0;}100% {display: block;opacity: 1;}}
 @keyframes mOff{0% {display: block;opacity: 1;}50% {display: block;opacity: 0.5;}  90% {display: none;opacity: 0.1;} 100% {display: none;opacity: 0;}}
-#choix{position:relative;left:15%;}
-#don{position:absolute;top: 85%;}
+#choix{position:relative;left:15%;}#don{position:absolute;top:85%;}#pl{position:absolute;}
+#dtc{position:absolute;left:15%;top:2%;}
+#lock{position:absolute;right:1px;background-image: url("http://youtube.runsense.re/retour.html/css/lockop.png");}
 .slc{font-size:130%;color:white;}
 .jqx-fill-state-hover{font-size:180%;}
 .anm {display: block;animation: menu 1.5s ease-out;}
@@ -12,3 +13,5 @@
 .jqx-fill-state-hover{color:black;}
 .jqx-scrollbar .jqx-scrollbar-state-normal {background: #a40200;}
 .jqx-scrollbar-button-state-normal{background:green;}
+.jqx-combobox-arrow-normal {background: goldenrod;}
+.jqx-combobox-input{color: blueviolet;}
