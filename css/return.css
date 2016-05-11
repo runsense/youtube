@@ -3,7 +3,7 @@
 @keyframes mOff{0% {display: block;opacity: 1;}50% {display: block;opacity: 0.5;}  90% {display: none;opacity: 0.1;} 100% {display: none;opacity: 0;}}
 #choix{position:relative;left:15%;}#don{position:absolute;top:85%;}#pl{position:absolute;}
 #dtc{position:absolute;left:15%;top:2%;}
-#lock{position:absolute;right:1px;background-image: url("http://youtube.runsense.re/retour.html/css/lockop.png");}
+#lock{position:absolute;right:1px;background-image: url("http://youtube.runsense.re/css/lockop.png");}
 .slc{font-size:130%;color:white;}
 .jqx-fill-state-hover{font-size:180%;}
 .anm {display: block;animation: menu 1.5s ease-out;}
