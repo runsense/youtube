@@ -13,6 +13,7 @@
 .liens {color:#ffffff;text-height: 2em;}
 .jqx-listbox {background: none;color:goldenrod;} 
 .jqx-fill-state-hover{color:black;}
+.jqx-listitem-state-selected{z-index:4!important;background: none;animation: textanm 2s ease-in-out 1s infinite;}
 .jqx-scrollbar .jqx-scrollbar-state-normal {background: #a40200;}
 .jqx-scrollbar-button-state-normal{background:green;}
 .jqx-combobox-arrow-normal {background: goldenrod;}
