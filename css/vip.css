@@ -17,4 +17,4 @@
 .jqx-scrollbar .jqx-scrollbar-state-normal {background: #993300;}
 .jqx-scrollbar-button-state-normal{background:#00ffff;}
 .jqx-combobox-arrow-normal {background: #c2c2a3;}
-.jqx-combobox-input{color: blueviolet;}
+.jqx-combobox-input{background:black;color: blueviolet;animation: textanm 2s ease-in-out 10s infinite;}
