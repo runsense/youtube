@@ -15,10 +15,12 @@
 .anom {display: none;animation: mOff 1.5s ease-out;}
 .liens {color:#ffffff;text-height: 2em;}
 .jqx-listbox {background: none;color:goldenrod;} 
-.jqx-listitem-state-selected{background:none;animation: textanm 2s ease-in-out 1s infinite;}
+.jqx-listitem-state-selected{animation: textanm 2s ease-in-out 1s infinite;}
 .jqx-scrollbar .jqx-scrollbar-state-normal{background:#a40200;}
 .jqx-scrollbar-button-state-normal{background:green;}
 .jqx-combobox-arrow-normal {background:goldenrod;}
 .jqx-combobox-input{background:black;color:goldenrod;animation: textanm 2s ease-in-out 10s infinite;}
 a:hover{background:none!important;animation: textanm 3s;}
-.jqx-listitem-state-hover{font-size:130%;color:#a40200;text-shadow: 0 0 3px goldenrod, 5px 2px 5px #004200;}
+.jqx-fill-state-focus{background:rgba(204,0,0,0.2);text-shadow: 0 0 3px green}
+#entrer.jqx-fill-state-focus,#lrtrn.jqx-fill-state-focus{background:none;text-shadow:none;}
+.jqx-listitem-state-hover{font-size:180%;color:#a40200;text-shadow: 0 0 3px goldenrod, 5px 2px 5px #004200;}
