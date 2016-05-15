@@ -7,7 +7,8 @@
 #dtc{position:absolute;left:15%;top:2%;}#yT{position:relative;}
 .navbar-brand{animation: textanm 4s ease-in-out 1s infinite;}
 .boxanm{animation: boxanm 2s ease-out;}
-.nav li a:focus{background-color:black!important;color:#993300;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;}
+.navbar-nav,.uslc,.nav li a:focus{color:#a40200;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;}
+.nav li a:focus{background-color:black!important;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;}
 #lock{position:absolute;right:1px;background-image: url("http://youtube.runsense.re/css/lockop.png");}
 .jqx-fill-state-hover{font-size:180%;color:black;}
 .anm {display: block;animation: menu 1.5s ease-in;}
