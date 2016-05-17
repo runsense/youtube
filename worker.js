@@ -1,0 +1,1 @@
+addPlus=function(){var i=FuncTree.i;if(FuncTree.arr[i]) $(FuncInit.idtree).jqxTree('addTo',{id:i,label:'play '+i,value:FuncTree.arr[i],items:[{id:'',label:' ',value:''}]},FuncTree.elmt);FuncTree.i=FuncTree.i+1;};
