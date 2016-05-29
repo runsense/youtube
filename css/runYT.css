@@ -54,9 +54,10 @@ option{animation: textanm;}
  #mix_p {position:absolute;z-index:1;top:1px;left:19%;border-top-left-radius:1em;border-bottom-left-radius:2em;}
  #mix_s{position:absolute;top:1px;z-index:1;left:41%;border-bottom-right-radius:2em;border-top-right-radius:1em;}
  input{background:rgba(63,180,18,0.4);width:100%;z-index:1!important;}
- select#add {color:silver;} 
+ select#add {color:silver;}#add option{background:black;color:silver;} 
 .ytp-title-text{display:none;}
 .jqx-slider-tickscontainer{background:rgba(180,18,63,0.4);}
 .jqx-fill-state-hover{font-size:180%!important;}
 #sgq .jqx-fill-state-hover{font-size:120%!important;color:green;background:rgba(180,18,9,0.7);} 
  #av img,#ap img{animation: flanm 2s ease-out 1s infinite;}
+

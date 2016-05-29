@@ -4,7 +4,7 @@
  * Copyright 2018, Dalleau Pascal
  *
  */
-var tag=document.createElement('script');tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName('script')[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var done=false;onYouTubeIframeAPIReady=function(){FS.player=new YT.Player('yT',{events:{'onReady':FS.ready,'onStateChange':FS.change,'onError':FS.erreur}});};
+ var done=false;
 var FS=FS||{};FS={vid:'3nP6Tz45K_U',bs:false,bdb:true,bid:true,bpl:true,bmob:false,blist:false,ber:false,player:null,larg:0,idx:0,idxout:-1,gre:'',h:'',w:'',gak:'AIzaSyCBrcqXgjh0hzFBS-nxUHMYUwvSEhFafng',tableID:'1AEwxOyi_yhIbmq6ymIougg5hL0uPxA6TBEH_OiGk',msk:[],tbsrch:[],tbid:['#entrer','#tabsrch','#lrtrn','#genre','#choix','#lock'],pos:0,tbitms:[{id:0,items:[]}],
 	pVid:function(i){var it;if(FS.bpl) if(FS.bid){it=$(FS.tbid[0]).jqxListBox('getItem', i);var tb=it['value'].split(',');FS.vid=tb[1];$("#listitem"+i+"entrer").addClass('uslc');}else{it=$(FS.tbid[2]).jqxListBox('getItem', i);FS.idxout=it['index'];FS.vid=it['value'];$("#listitem"+i+"lrtrn").addClass('uslc');}if(FS.bpl) FS.play(FS.vid);},
 	lent:function(src){$(FS.tbid[0]).remove();$("#pl").append($("<div/>",{id:'entrer'}));var lrg;$(FS.tbid[0]).jqxListBox({allowDrop:true, source:src,width:FS.larg,height:FS.h*0.95,
