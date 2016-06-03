@@ -60,5 +60,5 @@ option{animation: textanm;}
 .jqx-fill-state-hover{font-size:180%!important;}
 #sgq .jqx-fill-state-hover{font-size:120%!important;color:green;background:rgba(180,18,9,0.7);} 
  #av img,#ap img{animation: flanm 2s ease-out 1s infinite;}
-  #mix_j,button{background:none;border:none;}
+  #mix_j,button,input{background:none;border:none;}
 
