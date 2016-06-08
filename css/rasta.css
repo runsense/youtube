@@ -25,4 +25,4 @@ a:hover{background:none!important;animation: textanm 3s;}
 .jqx-fill-state-focus{background:rgba(204,0,0,0.2);text-shadow: 0 0 3px green}
 #entrer.jqx-fill-state-focus,#lrtrn.jqx-fill-state-focus{background:none;text-shadow:none;z-index:-1;}
 .jqx-listitem-state-hover{font-size:180%;color:#a40200;text-shadow: 0 0 3px goldenrod, 5px 2px 5px #004200;}
-.choice{animation: choice 4s ease-in-out infinite;}
+.choice{animation: choice 4s ease-in-out 3;}
