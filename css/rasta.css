@@ -4,7 +4,7 @@
 @keyframes textanm{9%,45%,81%{color:rgba(0,0,252,1);text-shadow: 2px 7px 4px #CC0000;} 20%{color:rgba(0,0,252,1);}  18%,54%,90% {color:rgba(255,255,9,1);text-shadow: 4px 2px 7px #9999D6;} 55%{color:rgba(255,255,9,1);} 70%{color:rgba(252,252,252,1);} 27%,72%,99%{color:rgba(9,9,9,1);text-shadow: 2px 7px 4px #004200;}}
 @keyframes boxanm{9%,45%{color:rgba(0,0,252,1);box-shadow: 2px 7px 4px #CC0000;} 20%{color:rgba(0,0,252,1);}  18%,54% {color:rgba(255,255,9,1);box-shadow: 4px 2px 7px #9999D6;} 55%{color:rgba(255,255,9,1);} 70%{color:rgba(252,252,252,1);} 27%,72%{color:rgba(9,9,9,1);box-shadow: 2px 7px 4px #004200;}}
 #choix{position:relative;left:15%;}#don{position:absolute;top:85%;}#pl{position:absolute;}
-#dtc{position:absolute;left:15%;top:2%;}#yT{position:relative;}#page{position:absolute;left:18%;top:25%;color:black;opacity:0;z-index:4!important;}
+#dtc{position:absolute;left:15%;top:2%;}#yT{position:relative;left:-2.5%;}#page{position:absolute;left:18%;top:25%;color:black;opacity:0;z-index:4!important;}
 .navbar-brand{animation: textanm 4s ease-in-out 1s infinite;}
 .boxanm{animation: boxanm 4s ease-out 5s infinite;}
 .navbar-nav,.uslc,.nav li a:focus{color:#a40200;text-shadow: 0 0 3px #DAA520, 5px 2px 5px #004200;z-index:1;}
