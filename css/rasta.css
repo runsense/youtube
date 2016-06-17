@@ -11,7 +11,7 @@
 .visit{box-shadow: 0 0 3px #DAA520, 5px 2px 5px #a40200;}
 .nav li a:focus{background-color:black!important;box-shadow: 0 0 3px #DAA520, 5px 2px 5px #004200;}
 a:hover{background:none!important;animation: textanm 3s;}
-#lock{position:absolute;right:1px;background-image: url("http://youtube.runsense.re/css/lockop.png");}
+#menu{background-color:black!important;box-shadow: 0 0 3px #DAA520, 5px 2px 5px #004200;}
 .jqx-fill-state-hover{font-size:180%;color:black;}
 .anm {animation: menu 1.5s ease-in;opacity:1;}
 .anom {animation: mOff 1.5s ease-out;opacity:0;}

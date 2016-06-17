@@ -7,11 +7,11 @@
 #dtc{position:absolute;left:15%;top:2%;}#yT{position:relative;left:-2.5%;}#page{position:absolute;left:18%;top:25%;color:white;opacity:0;z-index:4!important;}
 .navbar-brand{animation: textanm 4s ease-in-out 1s infinite;}
 .boxanm{animation: boxanm 2s ease-out 5s infinite;}
-.navbar-nav,.uslc{color:#a40200;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;z-index:1;}
-.visit {box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;}
+.navbar-nav,.uslc,.nav li a:focus{color:#a40200;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;z-index:1;}
+.visit{box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;}
 .nav li a:focus{background-color:black!important;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;}
 a:hover{background:none!important;animation: textanm 3s;}
-#lock{position:absolute;right:1px;background-image: url("http://youtube.runsense.re/css/lockop.png");}
+#menu{background-color:black!important;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #004200;}
 .jqx-fill-state-hover{font-size:180%;color:black;}
 .anm {animation: menu 1.5s ease-in;opacity:1;}
 .anom {animation: mOff 1.5s ease-out;opacity:0;}

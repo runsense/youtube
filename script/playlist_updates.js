@@ -1,26 +1,26 @@
 var playlistId, channelId;
-
-// After the API loads, call a function to enable the playlist creation form.
+$.urlParam=function(name){
+	var results=new RegExp('[\?&]'+name+'=([^&#]*)').exec(window.location.href);
+	try{return results[1]||0;}catch(e){return null;}}
+	
 function handleAPILoaded() {
   enableForm();
+  if($.urlParam('val')!=null){alert($.urlParam('ur'));plyLstId.nm="Personal"+plyLstId.id;}
 }
-
-// Enable the form for creating a playlist.
 function enableForm() {
   $('#playlist-button').attr('disabled', false);
 }
 
-// Create a private playlist.
 function createPlaylist() {
   var request = gapi.client.youtube.playlists.insert({
     part: 'snippet,status',
     resource: {
       snippet: {
         title: 'Test Playlist',
-        description: 'A private playlist created with the YouTube API'
+        description: 'by runsense on gadiambTiVi'
       },
       status: {
-        privacyStatus: 'private'
+        privacyStatus: 'public'
       }
     }
   });
@@ -36,15 +36,9 @@ function createPlaylist() {
     }
   });
 }
-
-// Add a video ID specified in the form to the playlist.
 function addVideoToPlaylist() {
   addToPlaylist($('#video-id').val());
 }
-
-// Add a video to a playlist. The "startPos" and "endPos" values let you
-// start and stop the video at specific times when the video is played as
-// part of the playlist. However, these values are not set in this example.
 function addToPlaylist(id, startPos, endPos) {
   var details = {
     videoId: id,
