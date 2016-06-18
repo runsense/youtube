@@ -16,24 +16,6 @@ var FS=FS||{};FS={vid:'3nP6Tz45K_U',bs:false,bdb:true,bid:true,bpl:true,bmob:fal
 	opMn:function(){$(FS.tbid[4]).addClass('anm').removeClass('anom');},clMn:function(){$(FS.tbid[4]).addClass('anom').removeClass('anm');}};
 $(document).ready(function(){FS.h=$(window).height();FS.w=$(window).width()/100;FS.larg=FS.w*13;var size=FS.w*73;FS.srch();FS.bsip();if($("#lock").css('width')=='20px') FS.bmob=true;if(FS.bmob){$("<button/>",{id:'clear',text:'CLEAR',click:function(){rClick();}}).insertAfter('#lock');$("<button/>",{id:'tab',text:'Tabs',click:function(){if($(FS.tbid[4]).hasClass('anom')) FS.opMn();else FS.clMn();}}).insertAfter('#clear');$('#genre').appendTo('#dtc');$('#dtc').css('left',FS.w*45);$("<div/>",{id:'yT'}).appendTo("body");size=FS.w*100;FS.larg=FS.w*37;}else{$("<div/>",{id:'yT'}).appendTo("#dtc");$("#dtc").mouseover(function(){FS.opMn();}).mouseleave(function(){FS.clMn();});}$(window).resize(function(){if(FS.player!=null){FS.player.setSize(size,FS.h*0.89);}}).resize();
 $(FS.tbid[2]).jqxListBox({allowDrop:true,allowDrag:true,width:FS.larg,height:FS.h*0.95});$(FS.tbid[2]).bind('select',function(event){if(FS.bpl) FS.bid=false;var idx=event.args.index;FS.idxout=idx;FS.pVid(idx);});rClick=function(){var idx=$(FS.tbid[2]).jqxListBox('getSelectedIndex');$(FS.tbid[2]).jqxListBox('removeAt',idx);delete FS.tbsv[idx];$(FS.tbid[2]).jqxListBox('clearSelection');};$(FS.tbid[2]).mousedown(function(e){if(!e) rClick();});$(FS.tbid[3]).jqxComboBox({source:FS.cmbSrc,placeHolder:"genre",width:FS.w*11,height:'20px',autoOpen:true});$(FS.tbid[3]).on('open',function(event){$(FS.tbid[2]).jqxListBox({allowDrop:true,source:[]});});$(FS.tbid[3]).on('close',function(event){$(FS.tbid[2]).jqxListBox({allowDrop:true,source:FS.tbsv});});
-$(FS.tbid[5]).jqxMenu({ width:'27px',height:'27px',enableHover:true,autoOpen:true,easing:'easeInOutSine'});$(FS.tbid[5]).jqxMenu('minimize');
-			$(FS.tbid[5]).on('itemclick', function (event){
-				var txt=$(event.target).text();
-				if(txt){
-					if(txt=='Lock All'){if(FS.bpl){FS.bpl=false;$('body').css('background-color','#a40200');}else{FS.bpl=true;$('body').css('background-color','black');}}
-					else if(txt=='Playlist'){FI.ur;/*Create or Charge*/}
-					else if(txt=='Create or Charge'){var url='./admin.html';
-					var itms=$(FS.tbid[2]).jqxListBox('getItems');
-					for(i in itms){var val=itms[i];url+='?val='+val.value;}
-						window.open(url);}
-					else if(txt=='Update'){;}
-					else if(txt=='Throws in MixYoutube'){var url='./?ur="PLrwe0-1smC6xk5tCgYKl9x97VdFFfgwoH"&?val=';
-					var itms=$(FS.tbid[2]).jqxListBox('getItems');
-					for(i in itms){var val=itms[i];url+=val.value+',';}window.open(url,"right & copyright","location=0,menubar=0,width=400,height=400");}
-					else if(txt=='Clear All'){
-						var l=$(FS.tbid[2]).jqxListBox('getItems').length;
-						for(var i=0;i<=l;i++){$(FS.tbid[2]).jqxListBox('removeAt',i);}}
-					else if(txt=='Recharge on new'){FS.bdb=true;FS.srch();}
-				}});
+$(FS.tbid[5]).jqxMenu({ width:'27px',height:'27px',enableHover:true,autoOpen:true,autoCloseOnClick:true,easing:'easeInOutSine'});$(FS.tbid[5]).jqxMenu('minimize');$(FS.tbid[5]).on('itemclick', function (event){var txt=$(event.target).text();if(txt){if(txt=='Lock All'){if(FS.bpl){FS.bpl=false;$('body').css('background-color','white');}else{FS.bpl=true;$('body').css('background-color','black');}}else if(txt=='Throws in MixYoutube'){var url='./?ur="PLrwe0-1smC6xk5tCgYKl9x97VdFFfgwoH"&?val=';var itms=$(FS.tbid[2]).jqxListBox('getItems');for(i in itms){var val=itms[i];url+=val.value+',';}window.open(url,"right & copyright","location=0,menubar=0,width=400,height=400");}else if(txt=='Clear All'){var l=$(FS.tbid[2]).jqxListBox('getItems').length;for(var i=0;i<=l;i++){$(FS.tbid[2]).jqxListBox('removeAt',i);}}$('.jqx-menu-minimized-button').click();}});
 $("#dropdownlistContentgenre").click(function(){if($(FS.tbid[3]).jqxComboBox('isOpened')) $(FS.tbid[3]).jqxComboBox('close');else $(FS.tbid[3]).jqxComboBox('open');});$(FS.tbid[3]).bind('select',function (event){var idx=event.args.index;var item = $(FS.tbid[3]).jqxComboBox('getItem', idx);FS.genre=item.label;FS.srch();});$(FS.tbid[5]).css('width',FS.w*2);/*$(FS.tbid[5]).css('height',FS.h*0.04);$(FS.tbid[5]).mousedown(function(){var path="http://youtube.runsense.re/css/";if(FS.bpl){FS.bpl=false;$(FS.tbid[5]).css('background-image','url("'+path+'lock.png")');}else{FS.bpl=true;$(FS.tbid[5]).css('background-image','url("'+path+'lockop.png")');};});*/});
 $(window).resize(function(){if(FS.player!=null){FS.player.setSize(FS.w*100,FS.h*0.9);}}).resize();$(FS.tbid[0]).popupWindow({windowURL:'https://www.google.com',center:1,toolbar:0,createnew:0});
