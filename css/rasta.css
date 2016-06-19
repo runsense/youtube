@@ -10,8 +10,8 @@
 .navbar-nav,.uslc,.nav li a:focus{color:#a40200;text-shadow: 0 0 3px #DAA520, 5px 2px 5px #004200;z-index:1;}
 .visit{box-shadow: 0 0 3px #DAA520, 5px 2px 5px #a40200;}
 .nav li a:focus{background-color:black!important;box-shadow: 0 0 3px #DAA520, 5px 2px 5px #004200;}
+.jqx-menu {background-color:rgba(21,255,0,0.4);font-weight: bold;text-shadow: 0 0 3px #DAA520, 5px 2px 5px #a40200;border:none;box-shadow: 0 0 3px #DAA520, 5px 2px 5px #a40200;}
 a:hover{background:none!important;animation: textanm 3s;}
-	a{background:none!important;}
 #menu{background-color:black!important;box-shadow: 0 0 3px #DAA520, 5px 2px 5px #004200;}
 .jqx-fill-state-hover{font-size:180%;color:black;}
 .anm {animation: menu 1.5s ease-in;opacity:1;}
@@ -20,10 +20,10 @@ a:hover{background:none!important;animation: textanm 3s;}
 .jqx-listbox {background: none;color:goldenrod;} 
 .jqx-listitem-state-selected{animation: textanm 2s ease-in-out 1s infinite;}
 .jqx-scrollbar .jqx-scrollbar-state-normal{background:#a40200;}
-.jqx-scrollbar-button-state-normal{background:green;}
+.jqx-scrollbar-button-state-normal{background:#21FF00;}
 .jqx-combobox-arrow-normal {background:goldenrod;}
 .jqx-combobox-input{background:black;color:goldenrod;animation: textanm 2s ease-in-out 10s infinite;}
-.jqx-fill-state-focus{background:rgba(204,0,0,0.2);text-shadow: 0 0 3px green}
+.jqx-fill-state-focus{background:rgba(204,0,0,0.2);text-shadow: 0 0 3px #21FF00}
 #entrer.jqx-fill-state-focus,#lrtrn.jqx-fill-state-focus{background:none;text-shadow:none;z-index:-1;}
 .jqx-listitem-state-hover{font-size:180%;color:#a40200;text-shadow: 0 0 3px goldenrod, 5px 2px 5px #004200;}
 .choice{animation: choice 4s ease-in-out 3;}
