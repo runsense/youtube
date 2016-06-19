@@ -7,12 +7,12 @@
 #dtc{position:absolute;left:15%;top:2%;}#yT{position:relative;left:-2.5%;}#page{position:absolute;left:18%;top:25%;color:white;opacity:0;z-index:4!important;}
 .navbar-brand{animation: textanm 4s ease-in-out 1s infinite;}
 .boxanm{animation: boxanm 2s ease-out 5s infinite;}
-.navbar-nav,.uslc,.nav li a:focus{color:#a40200;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;z-index:1;}
+.navbar-nav,.uslc,.nav li a:focus{color:#993300;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;z-index:1;}
 .visit{box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;}
 .nav li a:focus{background-color:black!important;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;}
-.jqx-menu {background-color:rgba(0,255,255,0.4);font-weight: bold;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;border:none;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;}
+.jqx-menu {background-color:rgba(0,255,255,0.4);font-weight:bold;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;border-color:#00ffff;border-style:dotted;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;}
 a:hover{background:none!important;animation: textanm 3s;}
-#menu{background-color:black!important;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #004200;}
+#menu{background-color:rgba(0,255,255,0.7);box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #004200;}
 .jqx-fill-state-hover{font-size:180%;color:black;}
 .anm {animation: menu 1.5s ease-in;opacity:1;}
 .anom {animation: mOff 1.5s ease-out;opacity:0;}
@@ -25,5 +25,6 @@ a:hover{background:none!important;animation: textanm 3s;}
 .jqx-combobox-input{background:black;color: blueviolet;animation: textanm 2s ease-in-out 10s infinite;}
 .jqx-fill-state-focus{background:rgba(0,255,255,0.2);text-shadow: 0 0 3px #FF1E92}
 #entrer.jqx-fill-state-focus,#lrtrn.jqx-fill-state-focus{background:none;text-shadow:none;z-index:-1;}
+#entrer,#lrtrn{border-color:#00ffff;border-style:dotted;}
 .jqx-listitem-state-hover{font-size:180%;color:#993300;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;}
 .choice{animation: choice 5s ease-in-out 3;}
