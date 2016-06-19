@@ -28,3 +28,4 @@ a:hover{background:none!important;animation: textanm 3s;}
 #entrer,#lrtrn{border-color:#a40200;border-style:dotted;}
 .jqx-listitem-state-hover{font-size:180%;color:#a40200;text-shadow: 0 0 3px goldenrod, 5px 2px 5px #004200;}
 .choice{animation: choice 4s ease-in-out 3;}
+.bcgpop{background-color:rgba(21,255,0,0.2);}
