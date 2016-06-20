@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body style="background:black;">
+    <div id="pl" style="border-top-left-radius:3em;border-bottom-left-radius:3em;"></div>
+
+    <script>
+      var tag=document.createElement('script');
+      tag.src="https://www.youtube.com/iframe_api";var firstScriptTag = document.getElementsByTagName('script')[0];firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      var prmstr=window.location.search.substr(1);
+	  var id=prmstr.split("=")[1];var lid;
+	  var pl;var bl=false; if(id.charAt(0)!='*'){bl=true;lid=id.substring(1);id='';}
+      function onYouTubeIframeAPIReady(){pl=new YT.Player('pl',{height:'400',width:'400',videoId:id,events:{'onReady':rea,'onStateChange':chg}});}
+      function rea(event){if(bl) pl.loadPlaylist({list:lid,startSeconds:1,index:0,listType:'playlist',suggestedQuality:"highres"});else event.target.playVideo();}     
+	  function chg(){;}
+    </script>
+  </body>
+</html>
