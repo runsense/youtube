@@ -9,11 +9,11 @@
 .navbar-brand{animation: textanm 4s ease-in-out 1s infinite;}
 .boxanm{animation: boxanm 2s ease-out 5s infinite;}
 .navbar-nav,.uslc,.nav li a:focus{color:#993300;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;z-index:1;}
-.visit{box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;}
-.nav li a:focus{background-color:black!important;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;}
+.visit{box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;border-top-right-radius:18em;border-bottom-left-radius:1em;}
+.nav li a:focus{background-color:black!important;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;border-top-left-radius:18em;border-bottom-right-radius:1em;}
 .jqx-menu {background-color:rgba(0,255,255,0.4);font-weight:bold;text-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;border-color:#00ffff;border-style:dotted;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #993300;}
 a:hover{background:none!important;animation: textanm 3s;}
-#menu{background-color:rgba(0,255,255,0.7);box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;animation: bsh 4s ease-in 9s infinite;}
+#menu{background-color:rgba(0,255,255,0.7);box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #00ffff;border-top-left-radius:18em;border-top-right-radius:1em;animation: bsh 4s ease-in 9s infinite;}
 .jqx-fill-state-hover{font-size:180%;color:black;}
 .anm {animation: menu 1.5s ease-in;opacity:1;}
 .anom {animation: mOff 1.5s ease-out;opacity:0;}
