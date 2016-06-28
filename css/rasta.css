@@ -26,7 +26,7 @@ a:hover{background:none!important;animation: textanm 3s;}
 .jqx-combobox-input{background:black;color:goldenrod;animation: textanm 2s ease-in-out 10s infinite;}
 .jqx-fill-state-focus{background:rgba(204,0,0,0.2);text-shadow: 0 0 3px #21FF00}
 #entrer.jqx-fill-state-focus,#lrtrn.jqx-fill-state-focus{background:none;text-shadow:none;z-index:-1;}
-#entrer,#lrtrn{border-color:#a40200;border-style:dotted;}#lrtrn{animation: bsh 4s ease-in 9s infinite;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #004200;}
+#entrer,#lrtrn{border-color:#a40200;border-style:dotted;background-image: url("baf.gif");}#lrtrn{animation: bsh 4s ease-in 9s infinite;box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #004200;}
 .jqx-listitem-state-hover{font-size:180%;color:#a40200;text-shadow: 0 0 3px goldenrod, 5px 2px 5px #004200;}
 .choice{animation: choice 4s ease-in-out 3;}
 .bcgpop{background-color:rgba(21,255,0,0.2);}
