@@ -38,7 +38,7 @@ html,body {height:100%!important;margin:0px!important;padding:0px!important;}
 option{animation: textanm;}
 #return{position:absolute;z-index:1!important;top:1px;right:1px;width:7%;height:5%;}
 #jqxTree{float:right;top:0px;z-index:1!important;}
-#player{position:absolute;z-index:0!important;top:0px;float:left;margin:0px;padding:0px;border-bottom-right-radius:3em;border-top-right-radius:3em;}
+#player{position:absolute;z-index:0!important;top:0px;float:left;margin:0px;padding:0px;border-bottom-right-radius:3em;border-top-right-radius:3em;background-image: url("arrow.gif");}
 #lk{position:absolute;left:64%;z-index:1!important;top:1;}
 #lkyt{position:absolute;left:1px;z-index:1!important;top:1;}
 #up{position:absolute;left:77%;z-index:1!important;top:1;}
