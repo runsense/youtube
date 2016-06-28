@@ -10,7 +10,8 @@
 .boxanm{animation: boxanm 4s ease-out 5s infinite;}
 .navbar-nav,.uslc,.nav li a:focus{color:#a40200;text-shadow: 0 0 3px #DAA520, 5px 2px 5px #004200;z-index:1;}
 .visit{box-shadow: 0 0 3px #DAA520, 5px 2px 5px #a40200;border-top-right-radius:18em;border-bottom-left-radius:1em;}
-.nav li a:focus{background-color:black!important;box-shadow: 0 0 3px #DAA520, 5px 2px 5px #004200;border-top-left-radius:18em;border-bottom-right-radius:1em;}
+.nav li a:focus{background-color:black;box-shadow: 0 0 3px #DAA520, 5px 2px 5px #004200;border-top-left-radius:18em;border-bottom-right-radius:1em;}
+.onPlay{background-color:rgba(218,165,32, 0.4);box-shadow: 0 0 3px #DAA520, 5px 2px 5px #DAA520;border-top-right-radius:18em;border-bottom-left-radius:1em;}
 .jqx-menu {background-color:rgba(21,255,0,0.2);font-weight:bold;text-shadow: 0 0 3px #DAA520, 5px 2px 5px #a40200;border-color:#a40200;border-style:dotted;box-shadow: 0 0 3px #DAA520, 5px 2px 5px #a40200;}
 a:hover{background:none!important;animation: textanm 3s;}
 #menu{background-color:rgba(0,252,0,0.7);box-shadow: 0 0 3px #c2c2a3, 5px 2px 5px #004200;border-top-left-radius:18em;border-top-right-radius:1em;animation: bsh 4s ease-in 9s infinite;}
